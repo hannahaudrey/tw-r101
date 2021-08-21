@@ -1,0 +1,52 @@
+.title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+
+color: #FFB700;
+}
+.text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+color: #FFFFFF;
+}
+.rectangle{
+	background: #141F28;
+	height: 563px;
+	width:100%;
+}
+.Logo {
+    padding: 8px;
+    height: 100%;
+}
+
+.Logo img {
+    height: 100%;
+}
+/*Grid */
+.grid1 { grid-area: image; }
+.grid2 { grid-area: title; }
+.grid3 { grid-area: paragraph; }
+
+.gridsetA {
+  display: grid;
+  grid-template-areas:
+ ' image title'
+ ' image paragraph' ;
+ 
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+.heading{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFB700;
+  padding-left: 150px;
+}
+.subtext{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #141F28;
+  padding-left: 150px;
+}
+button{
+  width: 130px;
+  height: 51px;
+  background: #24282C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  position: relative;
+  left:100px;
+}
+button:hover{
+	  color: #FFB700;
+}
